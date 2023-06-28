@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.my-header, .section-1, .my-footer{
+    background-color: #1F2937;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.header-link a, .head-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+button, .action-button{
+    background-color: #3882F6;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.quoters{
+    background-color: #E5E7EB;
+}
+
+cite{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* My own starts here */
+
+.my-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-link a{
+    margin-left: 15px;
+}
