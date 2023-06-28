@@ -29,18 +29,22 @@ h2{
     color: #1F2937;
 }
 
-.quoters{
+.section-3{
     background-color: #E5E7EB;
 }
 
 cite{
-    font-size: 36px;
-    font-weight: light;
+    display: block;
+    font-size: 30px;
+    font-weight: 50;
     font-style: italic;
     color: #1F2937;
+    width: 700px;
 }
 
 /* My own starts here */
+
+/* -------------- Header ------------------------------*/
 
 .my-header{
     display: flex;
@@ -48,6 +52,160 @@ cite{
     align-items: center;
 }
 
+.my-header img{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
 .header-link a{
     margin-left: 15px;
 }
+
+/* -----------   Section-1 ------------------ */
+
+.image-1{
+    width:300px;
+    border: 3px solid #3882F6;
+}
+.section-1 img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.head-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 600px;
+}
+
+button{         /*make button a link*/
+    padding: 5px 10px;
+    border: 2px solid #3882F6;
+    border-radius: 15%;
+    color: white;
+    font-size: 15px;
+}
+
+/* ---------------- Section-2 ----------------*/
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.image-cards{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.card img{
+    display: block;
+    max-width: 70.59%;
+    height: 83.33%;
+    margin: 5px auto;
+}
+
+.card{
+    width: 170px;
+    height: 300px;
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+}
+
+.card p{
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+}
+
+/* ---------------- Section-3 ----------------*/
+
+.quote-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.quoter{
+    font-weight: bolder;
+    text-align:right;
+    width: 700px;
+}
+
+/* ---------------- Section-4 ----------------*/
+
+.section-4{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-button{
+    width: 650px;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.action-words{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    color: #F9FAF8;
+    
+}
+.action-button button{         /*make button a link*/
+    padding: 5px 10px;
+    border: 2px solid #F9FAF8;
+    border-radius: 15%;
+    color: white;
+    font-size: 15px;
+}
+
+/* ---------------- footer ----------------*/
+
+.my-footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+/* ---------------- extras ----------------*/
+
+.imager:hover{
+    width: 200px;
+}
+
+.image-1:hover{
+    width: 350px;
+}
+
+button{
+    cursor: pointer;;
+}
+
